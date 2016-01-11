@@ -1,3 +1,5 @@
+#This is basic code to pull one week of data.
+
 import urllib2
 from bs4 import BeautifulSoup
 
