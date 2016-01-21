@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 f = open('sample-weather-data.txt', 'w')
 f.write('city,timestamp,dayMean,dayHigh,dayLow,dayPrecip' + '\n')
 
-#Iterate through months and day
+#Iterate through days
 for d in range(1,8):
 
   #Open wunderground.com url
