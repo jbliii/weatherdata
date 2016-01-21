@@ -29,3 +29,4 @@ for d in range(1,8):
 
 #Done getting data! Close file.
 f.close()
+print "done!"
