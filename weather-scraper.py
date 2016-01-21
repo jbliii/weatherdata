@@ -96,3 +96,4 @@ for c in ("KJAX","KLGA","KSEA","KDCA","KSTL","KAUS","KLAS","KSAN","KFAR","KBOS",
 
 #Done getting data! Close file.
 f.close()
+print "done!"
