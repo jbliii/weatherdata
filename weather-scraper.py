@@ -40,12 +40,12 @@ for c in ("KJAX","KLGA","KSEA","KDCA","KSTL","KAUS","KLAS","KSAN","KFAR","KBOS",
 	elif c == "KMIA":
 		city = "Miami"
 
-	#Iterate through months and day
+	#Iterate through years, months, and days
 	for y in range(2001,2016):
 	  for m in range(1,13):
 		for d in range(1,32):
 
-		  #Check if already gone through month
+		  #Account for varying lengths of months
 		  if (m == 2 and d > 28):
 			break
 		  elif (m in [4, 6, 9, 11] and d > 30):
